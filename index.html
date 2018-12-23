@@ -3,26 +3,19 @@
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <style>
-      .container {
-        position: relative;
-        text-align: center;
-        color: white;
-      }
 
-      .centered {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-      }
+        html {
+          /* background: url(background.jpg) ; */
+          background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('background.jpg') no-repeat center center fixed;
+          -webkit-background-size: cover;
+          -moz-background-size: cover;
+          -o-background-size: cover;
+          background-size: cover;
+        }
     </style>
   </head>
-  
+
   <body>
-    <div class="container">
-      <img src="img_snow_wide.jpg" alt="Snow" style="width:100%;">
-      <div class="centered">Centered</div>
-    </div>
 
   </body>
 </html>
